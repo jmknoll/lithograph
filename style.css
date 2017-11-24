@@ -54,8 +54,46 @@
   font-style: normal;
 }
 
+/*
+  Full-page Spacing and Reset
+*/
+section {
+  max-width: 980px;
+  display: block;
+  margin: 50px auto;
+}
+
+/*
+  Font Sizes
+*/
+
+html, body {
+  font-size: 16px;
+
+}
+
+.title {
+  font-size: 4rem;
+  line-height: 6rem;
+  font-family: OpenSansSemiBold;
+}
+
+.subtitle {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-family: OpenSansNormal;
+}
+
+.content {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: OpenSansLight;
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 /* 
   Title, Subtitle, and Body
 */
+
